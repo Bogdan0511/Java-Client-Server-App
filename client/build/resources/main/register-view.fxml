@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mpp_basketballprojectjava.controllers.RegisterViewController">
+   <children>
+      <Text layoutX="255.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Register">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <TextField fx:id="txtFieldEmail" layoutX="223.0" layoutY="74.0" promptText="Email" />
+      <TextField fx:id="txtFieldUsername" layoutX="225.0" layoutY="126.0" promptText="Username" />
+      <PasswordField fx:id="txtFieldPassword" layoutX="223.0" layoutY="187.0" promptText="Password" />
+      <PasswordField fx:id="txtFieldConfirmPassword" layoutX="225.0" layoutY="251.0" promptText="Confirm Password" />
+      <Label layoutX="224.0" layoutY="57.0" text="Email" />
+      <Label layoutX="224.0" layoutY="109.0" text="Username" />
+      <Label layoutX="226.0" layoutY="172.0" text="Password" />
+      <Label layoutX="223.0" layoutY="234.0" text="Confirm password" />
+      <Button fx:id="btnRegister" layoutX="233.0" layoutY="297.0" mnemonicParsing="false" onMouseClicked="#registerButtonPressed" prefHeight="25.0" prefWidth="129.0" text="Register button" />
+      <Button fx:id="btnBackToLogin" layoutX="62.0" layoutY="53.0" mnemonicParsing="false" onMouseClicked="#backButtonPressed" text="Back" />
+   </children>
+</AnchorPane>

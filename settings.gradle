@@ -1,0 +1,8 @@
+rootProject.name = 'mpp_cl_sv_java'
+include 'client'
+include 'networking'
+include 'model'
+include 'repository'
+include 'service'
+include 'server'
+
